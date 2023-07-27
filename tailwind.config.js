@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        workSans: ["Work Sans", "sans-serif"],
+      },
+      colors: {
+        Red: "#ED1E79",
+      },
+    },
   },
   plugins: [],
 };
