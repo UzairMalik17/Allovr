@@ -34,7 +34,7 @@ function Navbar() {
             );
           })}
           <ImgButton
-            style={`w-[160px] h-[30px] md:w-[287px] md:h-[52px] text-[8px] md:text-base flex flex-row justify-start gap-2 hover:bg-Red border-white`}
+            style={`w-[160px] h-[30px] md:w-[287px] md:h-[52px] text-[8px] md:text-base flex flex-row  gap-2 hover:bg-Red border-white`}
             content={"CONNECT PHANTOM WALLET"}
             istyle={"w-2.5 h-3.5 md:w-6 md:h-6"}
             Img={"./images/phantom.png"}
