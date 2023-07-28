@@ -4,14 +4,15 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        Hero: "url('./images/hero.png')",
         Gradient: "url('./images/gradient.png')",
+        Hero: "url('./images/hero.png')",
       },
       fontFamily: {
         workSans: ["Work Sans", "sans-serif"],
       },
       colors: {
         Red: "#ED1E79",
+        Yellow: "#FBB03B",
       },
     },
   },

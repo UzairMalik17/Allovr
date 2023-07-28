@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Button from "../shared/Button";
+import ImgButton from "../shared/ImgButton";
 import ComponentWrapper from "../shared/Componentwrapper";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -16,8 +16,8 @@ function Navbar() {
     setToggle((prevState) => !prevState);
   };
   return (
-    <ComponentWrapper style={`relative bg-black`}>
-      <div className="w-full h-[100px] flex flex-row bg-black items-center justify-between text-white font-workSans">
+    <ComponentWrapper style={`relative bg-transparent`}>
+      <div className="w-full h-[90px] flex items-center justify-between absolute left-0 right-0 top-0 mx:auto md:px-8 px-4 text-white font-workSans">
         <img
           className="w-[106px] h-[26px] sm:w-[170px] sm:h-[41px]"
           src="./images/logo.png"
@@ -33,17 +33,12 @@ function Navbar() {
               </a>
             );
           })}
-          <Button
+          <ImgButton
             style={`w-[160px] h-[30px] md:w-[287px] md:h-[52px] text-[8px] md:text-base flex flex-row justify-start gap-2 hover:bg-Red border-white`}
-            content={
-              <>
-                <img
-                  className="w-3 h-3 md:w-6 md:h-6"
-                  src="./images/phantom.png"
-                  alt="Phantom"></img>
-                CONNECT PHANTOM WALLET
-              </>
-            }
+            content={"CONNECT PHANTOM WALLET"}
+            istyle={"w-2.5 h-3.5 md:w-6 md:h-6"}
+            Img={"./images/phantom.png"}
+            alt={"Phantom"}
           />
           <GiHamburgerMenu
             className={`h-6 w-6 inline min-[850px]:hidden text-Red hover:text-white ${
@@ -71,17 +66,12 @@ function Navbar() {
                 </a>
               );
             })}
-            <Button
+            <ImgButton
               style={`w-[287px] h-[52px] text-base flex flex-row gap-2 hover:bg-Red border-white`}
-              content={
-                <>
-                  <img
-                    className="w-6 h-6"
-                    src="./images/phantom.png"
-                    alt="Phantom"></img>
-                  CONNECT PHANTOM WALLET
-                </>
-              }
+              content={"CONNECT PHANTOM WALLET"}
+              istyle={"w-6 h-6"}
+              Img={"./images/phantom.png"}
+              alt={"Phantom"}
             />
           </div>
         )}
