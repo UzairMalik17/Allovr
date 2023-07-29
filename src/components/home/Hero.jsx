@@ -1,6 +1,7 @@
 import React from "react";
 import ComponentWrapper from "../shared/Componentwrapper";
 import ImgButton from "../shared/ImgButton";
+import Button from "../shared/Button";
 
 function Hero() {
   return (
@@ -10,17 +11,17 @@ function Hero() {
         <div className="w-full md:w-[400px] h-[400px] md:h-full flex flex-col gap-4 pt-[100px] items-center md:items-start text-center">
           <span className="text-white">Stake</span>{" "}
           <span className="text-Yellow">ALLOVR.</span>
-          <span className="text-white w-[300px] leading-[30px] text-[20px] md:text-3xl">
+          <span className="text-white w-[400px] leading-[30px] text-[20px] md:text-3xl">
             This is the best time to get the earnings you dream of.
           </span>
           <ImgButton
             style={
-              "w-[180px] h-[56px] text-white text-[16px] flex flex-row-reverse justify-center hover:bg-Red"
+              "w-[180px] h-[56px] text-white text-[16px] flex flex-row-reverse justify-center hover:bg-Red font-spaceGrotesk font-normal"
             }
             alt={"Arrow"}
             Img={"./images/arrow-down.png"}
             content={"SCROLL DOWN"}
-            bstyle={"w-6 h-6"}
+            istyle={`w-6 h-6`}
           />
         </div>
         <div className="w-full md:w-1/2 h-[600px] md:h-[calc(100vh-90px)] bg-Hero absolute right-0 left:0 bottom-0 top-[400px] md:top-auto bg-no-repeat bg-cover bg-center"></div>

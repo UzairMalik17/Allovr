@@ -9,6 +9,7 @@ export default {
       },
       fontFamily: {
         workSans: ["Work Sans", "sans-serif"],
+        spaceGrotesk: ["Space Grotesk", "sans-serif"],
       },
       colors: {
         Red: "#ED1E79",
