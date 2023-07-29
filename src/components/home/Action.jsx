@@ -1,0 +1,42 @@
+import React from "react";
+import ComponentWrapper from "../shared/Componentwrapper";
+import ImgButton from "../shared/ImgButton";
+import Button from "../shared/Button";
+function Action() {
+  return (
+    <ComponentWrapper style={`py-12`}>
+      <div className="w-full items-center flex flex-col">
+        <div className="w-11/12 h-[418px] min-[507px]:h-[358px] md:h-[300px]  flex flex-col relative rounded-2xl">
+          <div className="w-full h-[70px] absolute top-0 bg-gradient-to-t from-Yellow to-black -z-10"></div>
+          <div className="w-[60px] h-[100px] absolute rotate-[30deg] bg-black top-[-45px] left-[-30px] -z-10"></div>
+          <div className="w-[60px] h-[100px] absolute rotate-[-30deg] bg-black top-[-45px] right-[-30px] -z-10"></div>
+          <div className="w-full flex flex-col gap-8 items-center mt-auto bg-Yellow py-10 rounded-2xl">
+            <div className="w-full items-center text-center">
+              <span className="w-full font-semibold text-[40px] md:text-[55px] font-workSans">
+                Start your action now!
+              </span>
+            </div>
+            <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] items-center justify-center font-spaceGrotesk">
+              <ImgButton
+                style={
+                  "w-10/12 md:w-[221px] h-[56px] text-white flex flex-row-reverse justify-center hover:bg-Red font-normal border-[#1A1A1A] bg-[#1A1A1A]"
+                }
+                alt={"Arrow"}
+                Img={"./images/arrow-down.png"}
+                content={"STAKE AOVR NOW"}
+              />
+              <Button
+                style={
+                  "w-10/12 md:w-[221px] h-[56px] border-[#1A1A1A] hover:bg-Red"
+                }
+                content={"WITHDRAW AOVR"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </ComponentWrapper>
+  );
+}
+
+export default Action;
