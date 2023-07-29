@@ -49,17 +49,21 @@ function Staking() {
     countdownTimer();
   });
 
-  const earninginfo = [{ stakedAmount: 56599, communityEarningAmount: 3923 }];
   return (
     <ComponentWrapper>
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-8 py-12">
         <div className="w-full md:w-1/2 flex flex-col gap-8 font-workSans items-center md:items-start text-xl text-white">
           <span>Total Staked at this moment</span>
-          {earninginfo.stakedAmount}
-          <span>AOVR</span>
+          <div>
+            <span className="font-spaceGrotesk text-5xl">56,599 </span>
+            <span>AOVR</span>
+          </div>
+
           <span>Community earnings since last payout</span>
-          {earninginfo.communityEarningAmount}
-          <span>AOVR</span>
+          <div>
+            <span className="font-spaceGrotesk text-5xl">3,923 </span>
+            <span>AOVR</span>
+          </div>
           <span>Time to next payout</span>
           <div className="w-full md:w-[312px] h-[90px] text-sm flex flex-row gap-4 items-center justify-between">
             <Bubble content={countdownTime.countdownDays} text={"Days"} />

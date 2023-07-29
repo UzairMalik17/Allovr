@@ -11,7 +11,7 @@ function Hero() {
         <div className="w-full md:w-[400px] h-[400px] md:h-full flex flex-col gap-4 pt-[100px] items-center md:items-start text-center">
           <span className="text-white">Stake</span>{" "}
           <span className="text-Yellow">ALLOVR.</span>
-          <span className="text-white w-[400px] leading-[30px] text-[20px] md:text-3xl">
+          <span className="text-white w-full md:w-[400px] leading-[30px] text-[20px] md:text-3xl">
             This is the best time to get the earnings you dream of.
           </span>
           <ImgButton
