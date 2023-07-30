@@ -40,7 +40,7 @@ function Working() {
             src="./images/work.png"
             alt="Working"></img>
         </div>
-        <div className="w-full  items-center relative">
+        <div className="w-full md:h-[340px] relative">
           <div className="w-full md:w-8/12 font-sans text-white md:absolute md:right-0 flex flex-col gap-12 font-semibold text-3xl">
             <div>
               <span>- An on-chain register of staking pools is </span>
@@ -59,7 +59,7 @@ function Working() {
             <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] font-spaceGrotesk items-center md:items-start">
               <ImgButton
                 style={
-                  "w-10/12 md:w-[309px] h-[56px] text-white flex flex-row-reverse justify-center bg-Red font-normal border-Red hover:bg-Yellow"
+                  "w-10/12 md:w-[309px] h-[56px] text-white text-[14px] flex flex-row-reverse justify-center bg-Red font-normal border-Red hover:bg-Yellow"
                 }
                 alt={"Arrow"}
                 Img={"./images/arrow-down.png"}
