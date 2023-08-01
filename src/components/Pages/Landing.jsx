@@ -6,6 +6,7 @@ import StakingInfo from "../home/StakingInfo";
 import Action from "../home/Action";
 import Working from "../home/Working";
 import Stakingpools from "../home/Stakingpools";
+import Footer from "../home/Footer";
 function Landing() {
   return (
     <div>
@@ -16,6 +17,7 @@ function Landing() {
       <Action />
       <Working />
       <Stakingpools />
+      <Footer />
     </div>
   );
 }

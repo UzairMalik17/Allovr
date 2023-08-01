@@ -88,7 +88,7 @@ function Stakingpools() {
                 - earn the same there is no good or bad choice here
               </p>
             </div>
-            <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center">
+            <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center font-spaceGrotesk">
               <Button
                 style={
                   "w-10/12 md:w-[233px] h-[56px] bg-Red border-Red hover:bg-Yellow font-normal"
