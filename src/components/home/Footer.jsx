@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentWrapper from "../shared/Componentwrapper";
 import { BiLogoDiscord } from "react-icons/bi";
 import { PiInstagramLogoFill } from "react-icons/pi";

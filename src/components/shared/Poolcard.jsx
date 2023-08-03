@@ -44,7 +44,10 @@ function Poolcard({ number, staked, owned, slots, poolLink, rebalance }) {
               content={"REBALANCE"}
             />
           )}
-          <Button style={`w-[80px] h-[41px] border-Red bg-Red`} content={"STAKE"} />
+          <Button
+            style={`w-[80px] h-[41px] border-Red bg-Red`}
+            content={"STAKE"}
+          />
         </div>
       </div>
     </ComponentWrapper>

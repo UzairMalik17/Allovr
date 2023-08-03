@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import ImgButton from "../shared/ImgButton";
 import ComponentWrapper from "../shared/Componentwrapper";

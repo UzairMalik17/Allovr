@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentWrapper from "../shared/Componentwrapper";
 import { useState, useEffect } from "react";
 import Bubble from "../shared/Bubble";

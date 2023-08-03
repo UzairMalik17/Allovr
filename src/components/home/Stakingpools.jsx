@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentWrapper from "../shared/Componentwrapper";
 import Button from "../shared/Button";
 import Poolcard from "../shared/Poolcard";
@@ -90,15 +89,11 @@ function Stakingpools() {
             </div>
             <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center">
               <Button
-                style={
-                  "w-10/12 md:w-[233px] h-[56px] bg-Red border-Red hover:bg-Yellow"
-                }
+                style={`w-10/12 md:w-[233px] h-[56px] bg-Red border-Red hover:bg-Yellow`}
                 content={"TRIGGER INFLATION RUN"}
               />
               <Button
-                style={
-                  "w-10/12 md:w-[233px] h-[56px] border-white hover:bg-Yellow"
-                }
+                style={`w-10/12 md:w-[233px] h-[56px] border-white hover:bg-Yellow`}
                 content={"REGISTER POOL"}
               />
             </div>
@@ -120,7 +115,7 @@ function Stakingpools() {
           </div>
           <div className="w-full flex flex-col justify-between items-center">
             <Button
-              style={`w-[185px] h-[56px] border0-white`}
+              style={`w-[185px] h-[56px] border-white`}
               content={"LOAD MORE ..."}
             />
           </div>

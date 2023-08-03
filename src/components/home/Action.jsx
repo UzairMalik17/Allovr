@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentWrapper from "../shared/Componentwrapper";
 import ImgButton from "../shared/ImgButton";
 import Button from "../shared/Button";
