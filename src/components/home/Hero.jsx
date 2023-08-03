@@ -15,7 +15,7 @@ function Hero() {
           </span>
           <ImgButton
             style={
-              "w-[180px] h-[56px] text-[16px] flex flex-row-reverse hover:bg-Red"
+              "w-[180px] h-[56px] text-[16px] flex flex-row-reverse border-white hover:bg-Red"
             }
             alt={"Arrow"}
             Img={"./images/arrow-down.png"}

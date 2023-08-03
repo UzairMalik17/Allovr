@@ -74,7 +74,7 @@ function Staking() {
           <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] font-spaceGrotesk">
             <ImgButton
               style={
-                "w-full md:w-[221px] h-[56px] flex flex-row-reverse hover:bg-Red font-normal bg-gradient-to-r from-Red to-Yellow"
+                "w-full md:w-[221px] h-[56px] flex flex-row-reverse hover:bg-Red border-black font-normal bg-gradient-to-r from-Red to-Yellow"
               }
               alt={"Arrow"}
               Img={"./images/arrow-down.png"}
@@ -83,7 +83,7 @@ function Staking() {
             />
             <Button
               style={
-                "w-full md:w-[221px] h-[56px] hover:bg-gradient-to-r from-Red to-Yellow"
+                "w-full md:w-[221px] h-[56px] border-white hover:bg-gradient-to-r from-Red to-Yellow"
               }
               content={"WITHDRAW AOVR"}
             />

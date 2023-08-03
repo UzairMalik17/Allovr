@@ -90,16 +90,20 @@ function Stakingpools() {
             </div>
             <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center">
               <Button
-                style={"w-10/12 md:w-[233px] h-[56px] bg-Red hover:bg-Yellow"}
+                style={
+                  "w-10/12 md:w-[233px] h-[56px] bg-Red border-Red hover:bg-Yellow"
+                }
                 content={"TRIGGER INFLATION RUN"}
               />
               <Button
-                style={"w-10/12 md:w-[233px] h-[56px] hover:bg-Yellow"}
+                style={
+                  "w-10/12 md:w-[233px] h-[56px] border-white hover:bg-Yellow"
+                }
                 content={"REGISTER POOL"}
               />
             </div>
           </div>
-          <div className="w-full grid lg:grid-cols-4 gap-8 items-center">
+          <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
             {pools.map((items, index) => {
               return (
                 <Poolcard
@@ -115,7 +119,10 @@ function Stakingpools() {
             })}
           </div>
           <div className="w-full flex flex-col justify-between items-center">
-            <Button style={`w-[185px] h-[56px]`} content={"LOAD MORE ..."} />
+            <Button
+              style={`w-[185px] h-[56px] border0-white`}
+              content={"LOAD MORE ..."}
+            />
           </div>
         </div>
       </div>

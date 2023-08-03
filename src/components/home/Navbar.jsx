@@ -34,7 +34,7 @@ function Navbar() {
             );
           })}
           <ImgButton
-            style={`w-40 h-8 md:w-72 md:h-14 text-[8px] md:text-base hover:bg-Red`}
+            style={`w-40 h-8 md:w-72 md:h-14 text-[8px] md:text-base border-white hover:bg-Red`}
             content={"CONNECT PHANTOM WALLET"}
             istyle={"w-2.5 h-3.5 md:w-6 md:h-6"}
             Img={"./images/phantom.png"}
@@ -67,7 +67,7 @@ function Navbar() {
               );
             })}
             <ImgButton
-              style={`w-72 h-14 text-base hover:bg-Red`}
+              style={`w-72 h-14 text-base border-white hover:bg-Red`}
               content={"CONNECT PHANTOM WALLET"}
               istyle={"w-6 h-6"}
               Img={"./images/phantom.png"}

@@ -18,7 +18,7 @@ function Action() {
             <div className="w-full flex flex-col md:flex-row gap-6 items-center justify-center">
               <ImgButton
                 style={
-                  "w-10/12 md:w-[221px] h-[56px] flex flex-row-reverse hover:bg-Red bg-[#1A1A1A]"
+                  "w-10/12 md:w-[221px] h-[56px] flex flex-row-reverse border-Yellow hover:bg-Red bg-[#1A1A1A]"
                 }
                 alt={"Arrow"}
                 Img={"./images/arrow-down.png"}
@@ -26,7 +26,7 @@ function Action() {
               />
               <Button
                 style={
-                  "w-10/12 md:w-[221px] h-[56px] border-[#1A1A1A] hover:bg-Red"
+                  "w-10/12 md:w-[221px] h-[56px] border-black hover:bg-Red"
                 }
                 content={"WITHDRAW AOVR"}
               />
