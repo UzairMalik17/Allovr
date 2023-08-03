@@ -64,12 +64,12 @@ function Stakingpools() {
   ];
   return (
     <ComponentWrapper
-      style={`py-12 bg-[url('./images/topGr.png')] bg-cover bg-no-repeat`}>
+      style={`py-12 bg-[url('./images/topGr.png')] bg-cover bg-no-repeat bg-top font-workSans text-white`}>
       <div className="w-full">
-        <div className="w-full flex flex-col gap-6 md:gap-12 items-center justify-between text-white">
-          <div className="w-full md:w-1/2 font-workSans flex flex-col gap-8 font-semibold text-6xl">
-            <span>Staking pools</span>
-            <div className="text-base font-normal">
+        <div className="w-full flex flex-col gap-6 md:gap-12 justify-between">
+          <div className="w-full md:w-1/2 flex flex-col gap-8">
+            <span className="font-semibold text-6xl">Staking pools</span>
+            <div>
               <span>Browse </span>
               <span className="font-semibold">ALLOVR’s</span>
               <span>
@@ -78,32 +78,28 @@ function Stakingpools() {
               </span>
               <span className="font-semibold">ALLOVR</span>
               <span> tokens or get assigned one randomly by hitting </span>
-              <span className="text-Yellow">Stake AOVR now.</span>
+              <span className="text-Yellow font-semibold">Stake AOVR now.</span>
               <span> note that all staking pools work the same and</span>
             </div>
           </div>
-          <div className="w-full flex flex-col md:flex-row justify-between gap-4 items-center">
+          <div className="w-full flex flex-col md:flex-row gap-4 justify-between items-center">
             <div className="w-full md:w-1/2">
-              <p className="font-workSans text-3xl">
+              <p className="text-3xl">
                 - earn the same there is no good or bad choice here
               </p>
             </div>
-            <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center font-spaceGrotesk">
+            <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-end gap-4 items-center">
               <Button
-                style={
-                  "w-10/12 md:w-[233px] h-[56px] bg-Red border-Red hover:bg-Yellow font-normal"
-                }
+                style={"w-10/12 md:w-[233px] h-[56px] bg-Red hover:bg-Yellow"}
                 content={"TRIGGER INFLATION RUN"}
               />
               <Button
-                style={
-                  "w-10/12 md:w-[233px] h-[56px] hover:bg-Yellow font-normal"
-                }
+                style={"w-10/12 md:w-[233px] h-[56px] hover:bg-Yellow"}
                 content={"REGISTER POOL"}
               />
             </div>
           </div>
-          <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
+          <div className="w-full grid lg:grid-cols-4 gap-8 items-center">
             {pools.map((items, index) => {
               return (
                 <Poolcard
@@ -119,10 +115,7 @@ function Stakingpools() {
             })}
           </div>
           <div className="w-full flex flex-col justify-between items-center">
-            <Button
-              style={`w-[185px] h-[56px] font-spaceGrotesk text-base`}
-              content={"LOAD MORE ..."}
-            />
+            <Button style={`w-[185px] h-[56px]`} content={"LOAD MORE ..."} />
           </div>
         </div>
       </div>

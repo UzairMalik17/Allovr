@@ -13,10 +13,10 @@ function Footer() {
             className="w-[250px] h-[60px]"
             src="./images/logo.png"
             alt="logo Allovr"></img>
-          <div className="w-full flex flex-row gap-12 justify-center items-center">
-            <BiLogoDiscord className="w-[40px] h-[40px] bg-black text-Yellow hover:text-Red rounded" />
-            <PiInstagramLogoFill className="w-[36px] h-[36px]  bg-black text-Yellow hover:text-Red rounded" />
-            <BsTwitter className="w-[36px] h-[36px] text-Yellow hover:text-Red rounded" />
+          <div className="w-full flex flex-row gap-12 justify-center items-center text-Yellow">
+            <BiLogoDiscord className="w-[40px] h-[40px] bg-black  hover:text-Red rounded" />
+            <PiInstagramLogoFill className="w-[36px] h-[36px]  bg-black hover:text-Red rounded" />
+            <BsTwitter className="w-[36px] h-[36px] hover:text-Red rounded" />
           </div>
           <span className="font-workSans text-xl text-white">
             2022 . All Right Reserved

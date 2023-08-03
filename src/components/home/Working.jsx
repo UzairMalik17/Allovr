@@ -5,12 +5,12 @@ import Button from "../shared/Button";
 function Working() {
   return (
     <ComponentWrapper style={`py-12`}>
-      <div className="w-full  flex flex-col gap-8 justify-between">
+      <div className="w-full  flex flex-col gap-8 justify-between text-white font-workSans">
         <div className="w-full flex flex-col-reverse md:flex-row gap-8 md:gap-0 justify-between items-center">
-          <div className="w-full md:w-1/2 font-workSans text-white flex flex-col gap-4 font-semibold">
+          <div className="w-full md:w-1/2 flex flex-col gap-4">
             <span className="text-5xl">How does it work?</span>
-            <div className="font-normal">
-              <span className="text-base font-normal">The total </span>{" "}
+            <div>
+              <span>The total </span>{" "}
               <span className="font-semibold">AOVR</span>
               <span>
                 {" "}
@@ -40,7 +40,7 @@ function Working() {
             alt="Working"></img>
         </div>
         <div className="w-full md:h-[340px] relative">
-          <div className="w-full md:w-8/12 font-sans text-white md:absolute md:right-0 flex flex-col gap-12 font-semibold text-3xl">
+          <div className="w-full md:w-8/12 md:absolute md:right-0 flex flex-col gap-12 font-semibold text-3xl">
             <div>
               <span>- An on-chain register of staking pools is </span>
               <span className="text-Yellow">maintained publicly</span>
@@ -55,10 +55,10 @@ function Working() {
               <span className="text-Yellow">plus your earned interest</span>
               <span> at any time.</span>
             </div>
-            <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] font-spaceGrotesk items-center md:items-start">
+            <div className="w-full flex flex-col md:flex-row gap-6 text-base md:items-start items-center font-normal">
               <ImgButton
                 style={
-                  "w-10/12 md:w-[309px] h-[56px] text-white text-[14px] flex flex-row-reverse justify-center bg-Red font-normal border-Red hover:bg-Yellow"
+                  "w-10/12 md:w-[309px] h-[56px] flex flex-row-reverse bg-Red hover:bg-Yellow"
                 }
                 alt={"Arrow"}
                 Img={"./images/arrow-down.png"}
@@ -66,9 +66,7 @@ function Working() {
                 istyle={"rotate-[270deg]"}
               />
               <Button
-                style={
-                  "w-10/12 md:w-[233px] h-[56px] hover:bg-Yellow font-normal"
-                }
+                style={"w-10/12 md:w-[233px] h-[56px] hover:bg-Yellow"}
                 content={"BROWSE STAKING POOLS"}
               />
             </div>

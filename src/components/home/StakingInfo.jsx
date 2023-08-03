@@ -4,16 +4,16 @@ import ComponentWrapper from "../shared/Componentwrapper";
 function StakingInfo() {
   return (
     <ComponentWrapper>
-      <div className="w-full py-12 flex flex-col gap-8 justify-between">
+      <div className="w-full py-12 flex flex-col gap-8 justify-between text-white font-workSans font-semibold">
         <div className="w-full flex flex-col md:flex-row gap-8 justify-between items-center">
           <img
             className="w-[312px] md:w-[400px] h-[324] md:h-[560px] items-center"
             src="./images/stakinginfo.png"
             alt="Staking"></img>
-          <div className="w-full md:w-[590px] font-workSans text-white flex flex-col gap-4 font-semibold">
+          <div className="w-full md:w-[590px] flex flex-col gap-4 ">
             <span className="text-5xl">What is Staking?</span>
             <div className="font-normal">
-              <span className="text-base font-normal">
+              <span>
                 Staking is when you lock AOVR tokens over a certain time span.
                 In return, you receive a share of the weekly minted new
               </span>{" "}
@@ -32,7 +32,7 @@ function StakingInfo() {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-8/12 font-sans text-white font-semibold text-3xl">
+        <div className="w-full md:w-8/12 text-3xl">
           <span>- The number of </span>
           <span className="text-Yellow">tokens</span>
           <span>

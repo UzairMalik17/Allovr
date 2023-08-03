@@ -52,7 +52,7 @@ function Staking() {
   return (
     <ComponentWrapper>
       <div className="w-full flex flex-col md:flex-row justify-between items-center gap-8 py-12">
-        <div className="w-full md:w-1/2 flex flex-col gap-8 font-workSans items-center md:items-start text-xl text-white">
+        <div className="w-full md:w-1/2 flex flex-col gap-8 items-center md:items-start text-xl font-workSans text-white">
           <span>Total Staked at this moment</span>
           <div>
             <span className="font-spaceGrotesk text-5xl">56,599 </span>
@@ -74,7 +74,7 @@ function Staking() {
           <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] font-spaceGrotesk">
             <ImgButton
               style={
-                "w-full md:w-[221px] h-[56px] text-white flex flex-row-reverse justify-center hover:bg-Red font-normal bg-gradient-to-r from-Red to-Yellow"
+                "w-full md:w-[221px] h-[56px] flex flex-row-reverse hover:bg-Red font-normal bg-gradient-to-r from-Red to-Yellow"
               }
               alt={"Arrow"}
               Img={"./images/arrow-down.png"}
@@ -89,7 +89,7 @@ function Staking() {
             />
           </div>
         </div>
-        <div className="w-full md:w-[695px] h-[536px] bg-[#101014] flex justify-center items-center font-workSans text-6xl font-semibold text-[#303038]">
+        <div className="w-full md:w-[695px] h-[536px] bg-[#101014] flex justify-center items-center text-6xl font-semibold text-[#303038]">
           Stake First
         </div>
       </div>

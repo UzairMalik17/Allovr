@@ -18,7 +18,7 @@ function Action() {
             <div className="w-full flex flex-col md:flex-row gap-6 text-[16px] items-center justify-center font-spaceGrotesk">
               <ImgButton
                 style={
-                  "w-10/12 md:w-[221px] h-[56px] text-white flex flex-row-reverse justify-center hover:bg-Red font-normal border-[#1A1A1A] bg-[#1A1A1A]"
+                  "w-10/12 md:w-[221px] h-[56px] flex flex-row-reverse hover:bg-Red font-normal bg-[#1A1A1A]"
                 }
                 alt={"Arrow"}
                 Img={"./images/arrow-down.png"}
