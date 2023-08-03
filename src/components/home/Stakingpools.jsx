@@ -103,7 +103,7 @@ function Stakingpools() {
               />
             </div>
           </div>
-          <div className="w-full grid md:grid-cols-4 gap-8 items-center">
+          <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
             {pools.map((items, index) => {
               return (
                 <Poolcard

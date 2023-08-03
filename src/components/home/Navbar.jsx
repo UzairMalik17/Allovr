@@ -16,7 +16,7 @@ function Navbar() {
     setToggle((prevState) => !prevState);
   };
   return (
-    <ComponentWrapper style={`relative bg-transparent`}>
+    <ComponentWrapper style={`relative bg-transparent z-10`}>
       <div className="w-full h-[90px] flex items-center justify-between absolute left-0 right-0 top-0 mx:auto md:px-8 px-4 text-white font-workSans">
         <img
           className="w-[106px] h-[26px] sm:w-[170px] sm:h-[41px]"

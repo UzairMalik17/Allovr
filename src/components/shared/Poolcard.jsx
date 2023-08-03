@@ -24,26 +24,28 @@ function Poolcard({ number, staked, owned, slots, poolLink, rebalance }) {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-row justify-start items-center gap-2 text-base font-workSans">
+        <div className="w-full flex flex-col lg:flex-row justify-start items-center gap-2 text-base font-workSans">
           <span>Available Slots :</span>{" "}
-          <span className="font-spaceGrotesk text-Yellow text-2xl">
-            {slots}
-          </span>
-          <span>Slots</span>
+          <div>
+            <span className="font-spaceGrotesk text-Yellow text-2xl">
+              {slots}
+            </span>
+            <span>Slots</span>
+          </div>
         </div>
         <hr></hr>
         <div className="w-[236px] text-[#0093FE] ">
-          <a href={poolLink}>{poolLink}</a>
+          <a href={poolLink}>l</a>
         </div>
-        <div className="w-full flex flex-row gap-2 items-center justify-start font-spaceGrotesk">
+        <div className="w-full flex flex-col md:flex-row gap-2 items-center justify-start font-spaceGrotesk">
           {rebalance && (
             <Button
-              style={`w-[120px] h-[41px] hover:bg-pink`}
+              style={`w-10/12 lg:w-[120px] h-[41px] hover:bg-pink`}
               content={"REBALANCE"}
             />
           )}
           <Button
-            style={`w-[80px] h-[41px] bg-Red border-Red`}
+            style={`w-10/12 lg:w-[80px] h-[41px] bg-Red border-Red`}
             content={"STAKE"}
           />
         </div>
