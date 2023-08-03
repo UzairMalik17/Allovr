@@ -1,4 +1,3 @@
-import React from "react";
 import ComponentWrapper from "./Componentwrapper";
 import Button from "./Button";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 function ImgButton({ style, content, Img, istyle, alt }) {
   return (
     <button
