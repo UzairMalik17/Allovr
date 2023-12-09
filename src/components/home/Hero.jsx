@@ -4,7 +4,7 @@ import ImgButton from "../shared/ImgButton";
 function Hero() {
   return (
     <ComponentWrapper
-      style={`font-workSans bg-[url('./images/bottomGr.png')] min-[850px]:bg-Gradient bg-center bg-no-repeat bg-cover text-white relative`}>
+      style={`font-workSans bg-[url('/images/bottomGr.png')] min-[850px]:bg-Gradient bg-center bg-no-repeat bg-cover text-white relative`}>
       <div className="w-full h-[1000px] min-[850px]:h-screen flex flex-col gap-4 min-[850px]:flex-row text-[56px] min-[850px]:text-8xl leading-[61px] min-[850px]:leading-[105px] items-center justify-between">
         <div className="w-full min-[850px]:w-[400px] h-[400px] min-[850px]:h-full flex flex-col gap-4 pt-[100px] items-center min-[850px]:items-start text-center">
           <span className="font-bold">Stake</span>{" "}
